@@ -1,12 +1,21 @@
 import React, { Fragment } from 'react'
+import { Container } from 'react-bootstrap'
+import Header from './components/Header'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
     <Fragment>
-      <h1>This is The Market</h1>
+      <Header />
+      <main>
+        <Container>
+
+        </Container>
+      </main>
+      <Footer />
     </Fragment>
   );
 }
 
-export default App;
+export default App
 
